@@ -1,0 +1,110 @@
+Vegan Recipe For Fork and Pencil Site  
+
+
+1. Create a New Page
+File Name: vegan-recipes.html
+
+Location: Place this file in the root directory or within the appropriate folder of your website.​
+
+2. Design the Page Layout
+Here's a basic HTML structure to display the recipes:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vegan Recipes | A Fork and a Pencil</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <!-- Include site header/navigation here -->
+  </header>
+
+*/Vegan Recipes for site */
+
+  <main>
+    <h1>Vegan Recipes</h1>
+    <section class="recipe-list">
+      <article class="recipe-card">
+        <h2><a href="https://aforkandapencil.com/recipe/fennel-baba-ghanoush">Fennel Baba Ghanoush</a></h2>
+        <p>A twist on the classic dip, replacing tahini with roasted almonds for a delicate flavor.</p>
+      </article>
+
+      <article class="recipe-card">
+        <h2><a href="https://aforkandapencil.com/recipe/spiced-baby-eggplants">Spiced Baby Eggplants</a></h2>
+        <p>Tender baby eggplants roasted with aromatic spices, perfect as a side dish or salad base.</p>
+      </article>
+
+      <article class="recipe-card">
+        <h2><a href="https://aforkandapencil.com/recipe/raw-harissa">Raw Harissa</a></h2>
+        <p>A no-cook, vibrant chili paste made from fresh red chilies and spices.</p>
+      </article>
+
+      <article class="recipe-card">
+        <h2><a href="https://aforkandapencil.com/recipe/spicy-red-lentil-bites">Spicy Red Lentil Bites</a></h2>
+        <p>Thai-inspired lentil patties, ideal as appetizers or in lettuce wraps.</p>
+      </article>
+
+      <article class="recipe-card">
+        <h2><a href="https://aforkandapencil.com/recipe/roasted-garlic-hummus">Roasted Garlic Hummus</a></h2>
+        <p>A creamy hummus enhanced with the sweetness of roasted garlic.</p>
+      </article>
+
+      <article class="recipe-card">
+        <h2><a href="https://aforkandapencil.com/recipe/pasta-with-baby-spinach-garlic-and-chilli">Pasta with Baby Spinach, Garlic, and Chilli</a></h2>
+        <p>A simple yet flavorful pasta dish with wilted spinach and a hint of chili.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <!-- Include site footer here -->
+  </footer>
+</body>
+</html>
+
+
+
+3. Update Site Navigation
+To make the new page accessible:
+
+Locate: Find the navigation menu in your site's HTML files (commonly in header.html or similar).
+
+Add Link: Insert a new list item linking to the vegan recipes page:
+
+  <nav>
+    <ul>
+      <li><a href="/recipe">Recipes</a></li>
+      <li><a href="/vegan-recipes.html">Vegan Recipes</a></li>
+      <!-- Other navigation items -->
+    </ul>
+  </nav>
+
+4. Style the Page
+Ensure the new page aligns with your site's design:
+
+CSS: Use existing CSS classes or define new ones in your stylesheet (styles.css).
+
+Responsive Design: Ensure the layout is mobile-friendly.​
+
+Example CSS for .recipe-card:
+
+
+.recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.recipe-card {
+  flex: 1 1 300px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+
+
+
+
